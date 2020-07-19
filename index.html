@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Shopping Website</title>
+    <!--bootstrap cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <!--fontawesome cdn-->
+   <script src="https://kit.fontawesome.com/4f74666f29.js" crossorigin="anonymous"></script>
+  <!--slider cdn-->
+ 
+  <link rel="stylesheet" type="text/css" href="slick.css">
+  <link rel="stylesheet" type="text/css" href="slick-theme.css">
+
+   <!--custom sytlesheet-->
+   <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+  
+    <!--header-->
+    <header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-sm-12 col-12">
+            <div class="btn-group">
+               <button class="btn border dropdown-toggle my-md-4 my-2 text-white"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   ENG-IN
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">HIN-IN</a>
+                </div>
+                   
+            </div>
+        </div>
+        <div class="col-md-4 col-12 text-center">
+            <h2 class="my-md-3 site-title text-white">Shopping Website</h2>
+        </div>
+      <div class="col-md-4 col-12 text-right">
+          <p>
+              <a href="#" class="px-2 text-white">Sign In</a>
+              <a href="sign_in.html" class="px-1 text-white">Create an account</a>
+          </p>
+      </div>
+    </div>
+</div>
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!--create dropdown here-->
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-sort-down"></i> Categories</a>
+              <div class="sub-menu-1">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fas fa-male"></i> Men <i class="fas fa-angle-right"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-female"></i> Women <i class="fas fa-angle-right"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-child"></i> Kids <i class="fas fa-angle-right"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-couch"></i> Home & Living</a>
+                  </li>
+                </ul>
+              </div>
+            
+            
+            </li>
+             <!--create dropdown here-->
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-hands-helping"></i> Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-address-card"></i> About Us</a>
+              
+                <div class="sub-menu-1">
+                  <ul>
+                    <li>
+                      <a href="#">Info</a>
+                    </li>
+                    <li>
+                      <a href="#">Team</a>
+                    </li>
+                  </ul>
+                </div>
+              
+              </li>
+            
+            
+          </ul>
+        </div>
+        <div class="navbar-nav">
+          <li class="nav-item border rounded-circle mx-2 search-icon">
+            <input type="text" placeholder="Search Here...." name="" class="search-box">
+            <i class="fas fa-search p-2"></i>
+          </li>
+          <li class="nav-item border rounded-circle mx-2 search-icon">
+            <i class="fas fa-shopping-cart p-2"></i>
+          </li>
+        </div>
+      </nav>
+</div>
+    </header>
+    <!--/header-->
+
+
+    <!--main section-->
+<main>
+<br><br><br><br><br><br><br><br>
+
+<!--first slider-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="banner11.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="banner2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="banner3.jpg" class="d-block w-100" alt="...">
+      
+    </div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <span class="fas fa-chevron-circle-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <span class="fas fa-chevron-circle-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+<!--/first slider-->
+<!--second slider-->
+<br>
+<hr>
+<h2 class="gradient-text"><span>BESTSELLERS</span></h2>
+<div class="container-fluid">
+  <div class="site-slider-two px-md-4">
+    <div class="row slider-two text-center">
+      <div class="col-md-2 product pt-md-5 pt-4">
+        <img src="item1.jpg" alt="product 1">
+        <span class="border  site-btn btn-span">WOMEN SHIRTS</span>
+      </div>
+      <div class="col-md-2 product pt-md-5 pt-4">
+        <img src="item2.jpg" alt="product 2">
+        <span class="border  site-btn btn-span">MEN T-SHIRTS</span>
+      </div>
+      <div class="col-md-2 product pt-md-5 pt-4">
+        <img src="item3.jpg" alt="product 3">
+        <span class="border  site-btn btn-span">JEANS</span>
+      </div>
+      <div class="col-md-2 product pt-md-5 pt-4">
+        <img src="item4.jpg" alt="product 4">
+        <span class="border  site-btn btn-span">SUMMER KURTIS</span>
+      </div>
+      <div class="col-md-2 product pt-md-5 pt-4">
+        <img src="item5.jpg" alt="product 5">
+        <span class="border  site-btn btn-span">JACKETS</span>
+      </div>
+      <div class="col-md-2 product pt-md-5 pt-4">
+        <img src="item8.jpg" alt="product 6">
+        <span class="border  site-btn btn-span">SPORTS SHOES</span>
+      </div>
+    </div>
+    <div class="slider-btn">
+      <span class="prev position-top">
+        <i class="fas fa-chevron-left fa-2x"></i>
+      </span>
+      <span class="next position-top right-0">
+        <i class="fas fa-chevron-right fa-2x text-secondary"></i>
+      </span>
+    </div>
+  </div>
+  
+</div>
+<!--/second-slider-->
+
+
+<!--brands slider 3-->
+<br>
+<hr>
+<h2 class="gradient-text" ><span>POPULAR BRANDS</span></h2>
+
+<div class="row p-0">
+  <div class="column">
+<a href="https://www2.hm.com/en_in/index.html"><img src="H-&-M-01.png" class="img-fluid"></a>
+  </div>
+  <div class="column">
+    <a href="https://shop.adidas.co.in/?gclid=Cj0KCQjwu8r4BRCzARIsAA21i_BZeujSvUQld65XUunM9XZrk6vI7dSM_PX29QzU7ElSoxDPLIQbLLQaArzTEALw_wcB#category/Pag-60/No-0/0/All/maxDiscountPercent_d:[41%2070]"><img src="logo1.png" class="img-fluid"></a>
+      </div>
+      <div class="column">
+        <a href="https://www.pantaloons.com/"><img src="pantaloons.png" class="img-fluid"></a>
+          </div>
+          <div class="column">
+            <a href="https://www.uniqlo.com/in/"><img src="uniqlo.png" class="img-fluid"></a>
+              </div>
+              <div class="column">
+                <a href="https://www.nike.com/in/"><img src="NIKE-Full-01.png" class="img-fluid"></a>
+                  </div>
+                  <div class="column">
+                    <a href="https://www.levi.in/hotsale?utm_channel=PaidSearch&utm_source=Google&utm_medium=CPC&utm_content=ETA&utm_campaign=Brand-Core_Mar,20"><img src="Levis-01.png" class="img-fluid"></a>
+                      </div>
+                      <div class="column">
+                        <a href="https://www.shopforaurelia.com/new-arrivals.html?utm_source=adyogi&utm_medium=google-search&utm_campaign=AURE_2880_adyogi_Brand-Search_Engage"><img src="logo7.png" class="img-fluid"></a>
+                          </div>
+                          <div class="column">
+                            <a href="https://uspoloassn.nnnow.com/"><img src="logo8.jpg" class="img-fluid"></a>
+                              </div>
+</div>
+
+
+</main>
+<br><br><br>
+<!--main section-->
+<footer>
+
+  <div class="main-content">
+    <div class="left-box">
+      <h2 class="text">Follow us</h2>
+      <div class="content">
+        <p class="text">follow us on social media for new brands, trends and updates, have your own brand? contact us!, are you an affiliate marketing intern, earn more by associating with us, email us for any queries related to your business!
+         <a href="#"><img src="social.jpg" height="67px" width="100px" alt="social"></a>
+        </p>
+        <div class="social">
+          <a href="#"><span class="fab fa-facebook-f"></span></a>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+          <a href="#"><span class="fab fa-instagram"></span></a>
+          <a href="#"><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="center box">
+    <h2 class="text">Address</h2>
+    <div class="content">
+      <div class="place">
+        <span class="fas fa-map-marker-alt"></span>
+        <span class="text">New Delhi, India</span>
+      </div>
+      <div class="phone">
+        <span class="fas fa-phone"></span>
+        <span class="text">+089-7654132100</span>
+         </div>
+         <div class="email">
+          <span class="fas fa-envelope"></span>
+          <span class="text">shopping_website@gmail.com</span>
+          
+        </div>
+      </div>
+    </div>
+    <div class="right box">
+      <h2 class="text">Contact us</h2>
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text">Email *</div>
+            <input type="email" required>
+            <div class="msg">
+              <div class="text">Message *</div>
+              <textarea  cols="25" rows="2" required></textarea>
+              <div class="btn">
+                <button type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="slick.js" type="text/javascript" charset="utf-8"></script>
+
+<script  src="main.js"></script>
+</body>
+</html>
